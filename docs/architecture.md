@@ -15,10 +15,14 @@ CSV is the primary data exchange format. Spreadsheet editors can prepare input a
 
 - Python standard library only for the implemented command-line scripts.
 - CSV data remains human-readable and portable.
-- Scripts do not silently repair or overwrite source data.
+- Scripts do not repair input data. Output writers can overwrite existing files; always use separate input and output paths and preserve raw data.
 - Reports distinguish calculations from engineering judgments.
 - Examples are fictional and cannot be interpreted as site performance.
 - The scripts do not implement a separate action-management or document-governance application; those areas are represented by CSV schemas, validators, and documentation.
+
+## Documentation layer
+
+[Report guides](../reports/README.md) and Markdown templates support manual interpretation and writing. They do not generate PDF/Word reports, approve documents, join module records, or validate physical performance. [Module connections](module-workflow.md) describe a human workflow.
 
 ## Extending the toolkit
 

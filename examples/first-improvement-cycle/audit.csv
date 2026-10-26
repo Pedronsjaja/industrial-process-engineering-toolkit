@@ -1,0 +1,3 @@
+audit_id,area,criterion,sense,score,nonconformity,evidence,owner,due_date,status
+AUD-DEMO-001,Demo workshop,Tools have marked storage positions,Seiton,2,Storage positions missing,Fictional observation only,Demo Coordinator,2026-10-25,Open
+AUD-DEMO-002,Demo workshop,Unused materials separated,Seiri,4,,Fictional observation only,Demo Coordinator,2026-11-02,Open

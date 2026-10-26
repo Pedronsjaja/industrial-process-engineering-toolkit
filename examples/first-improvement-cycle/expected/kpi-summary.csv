@@ -1,0 +1,6 @@
+metric,value,unit
+Open Actions,1,actions
+Overdue Actions,1,actions
+Inventory Availability,0.5000,ratio
+FMEA Items At/Above RPN 200,1,items
+5S Score,3.00,score (0-5)
