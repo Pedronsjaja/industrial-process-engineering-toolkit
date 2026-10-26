@@ -8,6 +8,16 @@ An open-source, modular toolkit for industrial process engineering, process mana
 
 Designed for small businesses, engineering teams, university projects, extension teams, laboratories, consultancies, students, and engineering professionals. The toolkit provides lightweight CSV-first tools and practical guidance; it is not a certified management system or a substitute for qualified engineering judgment.
 
+## New here?
+
+Start with the [Start Here guide](docs/start-here.md).
+
+Documentation is currently written in English. Portuguese guides may be added in future versions.
+
+## Typical workflow
+
+Choose a problem → record evidence → calculate or validate → assign actions → verify → report. Follow [how the modules connect](docs/module-workflow.md) or the [first improvement cycle](docs/tutorials/first-improvement-cycle.md). Connections and report writing are manual.
+
 ## Project Status
 
 **IMPLEMENTED** means working code exists; **DOCUMENTED** means guidance or a schema exists without implying automation; **EXAMPLE** identifies fictional sample data; **PLANNED** marks future work. No current feature is classified as experimental.
@@ -30,6 +40,8 @@ Designed for small businesses, engineering teams, university projects, extension
 | Drive governance | Folder structure, archive, permissions, and onboarding guidance | DOCUMENTED |
 | Analytics | KPI CSV generation for supported inputs | IMPLEMENTED |
 | Analytics | Data dictionary | DOCUMENTED |
+| Reports | Academic and technical writing guides with editable Markdown templates | DOCUMENTED |
+| Learning | End-to-end fictional improvement cycle with reproducible CSV outputs | EXAMPLE |
 | Standards | Small reference indexes and official-source links | DOCUMENTED |
 
 Feature boundaries and future work are documented in [ROADMAP.md](ROADMAP.md).
@@ -80,10 +92,12 @@ CSV files use UTF-8 encoding, a comma delimiter, and a period (`.`) as the decim
 ```text
 automation/  data-analytics/  docs/  document-control/
 drive-governance/  examples/  inventory/  process-management/
-quality/  standards/  tests/  .github/workflows/
+quality/  reports/  standards/  tests/  .github/workflows/
 ```
 
 ## Documentation
+
+Browse the [documentation index](docs/README.md) and [report guides and templates](reports/README.md).
 
 - [Getting started and CSV conventions](docs/getting-started.md)
 - [Architecture and data flow](docs/architecture.md)

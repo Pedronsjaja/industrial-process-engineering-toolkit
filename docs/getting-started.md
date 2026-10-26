@@ -1,5 +1,7 @@
 # Getting started
 
+Start with [Start Here](start-here.md) to choose a module, then follow the [worked tutorial](tutorials/first-improvement-cycle.md).
+
 ## Requirements
 
 Python 3.10 or newer. Runtime scripts use only the standard library. Install the development test dependency with:
@@ -25,12 +27,14 @@ These commands use forward slashes, supported by Python on Windows, macOS, and L
 Other scripts:
 
 ```text
-python automation/check_file_names.py --directory controlled-documents
+python automation/check_file_names.py --directory examples/first-improvement-cycle/controlled-documents
 python automation/generate_project_structure.py --root sample-project
 python automation/generate_project_structure.py --root sample-project --dry-run
 ```
 
-Use `--help` for script options.
+Use `--help` for script options. Keep output paths different from input paths: output files can be overwritten.
+
+The tutorial intentionally includes an overdue inspection; its inventory validation exits with code 1. The valid inventory example above exits with code 0.
 
 ## CSV conventions
 

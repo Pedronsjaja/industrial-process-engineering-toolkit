@@ -1,0 +1,2 @@
+risk_id,process,function,failure_mode,effect,cause,current_control,severity,occurrence,detection,owner,recommended_action,due_date,status
+FMEA-DEMO-001,Demo inspection,Confirm fixture condition,Inspection missed,Unsuitable fixture used,Inspection ownership unclear,Manual log review,8,5,5,Demo Custodian,Review inspection responsibility and release criteria,2026-11-02,Open
