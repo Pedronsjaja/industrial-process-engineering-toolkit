@@ -1,0 +1,3 @@
+process,function,failure_mode,effect,cause,current_control,severity,occurrence,detection,owner,recommended_action,due_date,status
+Prototype assembly,Fasten enclosure,Fastener not secured,Potential rework,Illustrative incorrect torque setting,Peer check,6,3,4,Example Owner,Define and verify fastening method,2026-12-01,Open
+Prototype test,Record measurement,Result recorded against wrong unit,Invalid comparison,Illustrative unclear form field,Review of test sheet,5,2,5,Example Owner,Add explicit units to controlled form,2026-12-15,Open

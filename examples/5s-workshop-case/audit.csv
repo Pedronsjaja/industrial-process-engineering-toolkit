@@ -1,0 +1,6 @@
+audit_id,area,criterion,sense,score,nonconformity,evidence,owner,due_date,status
+AUD-EX-001,Workshop,Tools returned to marked locations,Seiton,3,Some tools lack location labels,Fictional observation,Example Owner,2026-11-15,Open
+AUD-EX-002,Workshop,Walkways kept clear,Seiri,4,,Fictional observation,Example Owner,2026-11-15,Open
+AUD-EX-003,Workshop,Work surfaces cleaned after use,Seiso,3,No shared cleaning checklist,Fictional observation,Example Owner,2026-11-20,Open
+AUD-EX-004,Workshop,Visual work standards available,Seiketsu,2,Standard not posted,Fictional observation,Example Owner,2026-11-20,Open
+AUD-EX-005,Workshop,Team follows agreed routines,Shitsuke,3,Follow-up cadence undefined,Fictional observation,Example Owner,2026-11-30,Open

@@ -1,0 +1,14 @@
+dataset,field,description,type,notes
+5S audit,audit_id,Unique audit record identifier,text,Organization-defined
+5S audit,sense,5S category,text,Seiri Seiton Seiso Seiketsu or Shitsuke
+5S audit,score,Audit rating,number,Current code range is fixed at 0 to 5; define meaning locally
+Actions,action_id,Unique action identifier,text,Organization-defined
+Actions,source_id,Source finding or issue identifier,text,Traceability field
+Actions,due_date,Action due date,date,ISO YYYY-MM-DD
+Inventory,asset_id,Unique asset identifier,text,Required
+Inventory,quantity,Recorded quantity,number,Must not be negative
+Inventory,next_inspection,Next inspection date,date,ISO YYYY-MM-DD
+FMEA,severity,Severity rating,integer,Current code range is fixed at 1 to 10; define meaning locally
+FMEA,occurrence,Occurrence rating,integer,Current code range is fixed at 1 to 10; define meaning locally
+FMEA,detection,Detection rating,integer,Current code range is fixed at 1 to 10; define meaning locally
+FMEA,rpn,Severity times occurrence times detection,integer,Calculated output; not a universal risk criterion

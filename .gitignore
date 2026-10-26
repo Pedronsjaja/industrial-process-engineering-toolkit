@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.py[cod]
+fmea-ranked.csv
+5s-scores.csv
+kpis.csv
