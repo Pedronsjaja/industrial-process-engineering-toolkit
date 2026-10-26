@@ -8,7 +8,6 @@ Items below are **PLANNED**, not implemented functionality. The current implemen
 - Expand tests for malformed dates, encodings, and larger input files.
 - Add optional Excel workbook generation with data validation.
 - Add packaged Power BI dashboards and model samples.
-- Add GitHub Actions CI for automated test runs.
 - Add additional engineering templates and more fictional industrial case studies.
 - Develop automated process mapping where a clear, testable use case exists.
 - Explore automated OEE calculation after definitions and input data requirements are agreed.

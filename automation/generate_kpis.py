@@ -6,10 +6,13 @@ from datetime import date
 from csv_utils import DataError, parse_iso_date, read_csv, write_csv
 
 
+ACTION_REQUIRED_COLUMNS = ("action_id", "status", "due_date")
+
+
 def collect(args):
     metrics = []
     if args.actions:
-        _, actions = read_csv(args.actions, ("action_id", "status", "due_date"))
+        _, actions = read_csv(args.actions, ACTION_REQUIRED_COLUMNS)
         open_actions = [row for row in actions if row["status"].strip().lower() not in {"closed", "complete", "completed"}]
         overdue = []
         for row_number, row in enumerate(actions, start=2):

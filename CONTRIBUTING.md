@@ -2,14 +2,14 @@
 
 Contributions are welcome. Keep changes focused and suitable for small engineering teams.
 
-1. Describe the problem, expected behavior, and relevant engineering context.
-2. Keep pull requests small, focused, and traceable to a specific change.
-3. Use fictional or anonymized data in examples; do not present invented results as real.
-4. Add or update tests for behavior changes. Run `python -m pytest -q`.
-5. Keep scripts readable, validate inputs, and return a non-zero status for invalid data.
-6. Follow existing CSV field names and document schema changes and naming conventions.
-7. Verify licenses before reusing external code, text, templates, or datasets. Add required attribution to `THIRD_PARTY_CREDITS.md`.
-8. Label functionality accurately as IMPLEMENTED, DOCUMENTED, EXAMPLE, PLANNED, or EXPERIMENTAL. Do not describe a planned feature as implemented.
+1. Create a focused branch from the current development target and submit a small, traceable pull request; do not work directly on `main`.
+2. Use clear commits that describe the change. Explain scope and validation in the PR.
+3. Install test dependencies with `python -m pip install pytest`; run `python -m pytest -q` and add tests for behavior changes.
+4. Keep scripts readable, validate inputs, return non-zero status for invalid data, and document CSV schema/naming changes.
+5. Label work accurately as IMPLEMENTED, DOCUMENTED, EXAMPLE, or PLANNED. Do not describe a planned feature as implemented.
+6. Use fictional or anonymized examples. Never submit confidential client/company information or sensitive real-world datasets.
+7. Verify licenses before reusing third-party code or materials and record source, license, component, changes, and attribution in `THIRD_PARTY_CREDITS.md`.
+8. Do not copy protected text, tables, or figures from ABNT, ISO, NR, or other standards. Link to official sources instead.
 9. Update relevant documentation and the changelog when user-facing behavior changes.
 
-By contributing, you agree that your contributions are provided under the repository's MIT license.
+The project is released under the MIT License. Contributions are expected to be submitted under that license.

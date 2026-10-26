@@ -1,9 +1,9 @@
 # Inventory
 
-The inventory CSV uses `asset_id,category,item,description,quantity,location,owner,project,status,supplier,value,acquisition_date,last_inspection,next_inspection,notes`. The validator requires asset ID, item, quantity, location, status, and next inspection; optional fields may be blank.
+The inventory CSV uses `asset_id,category,item,description,quantity,location,owner,project,status,supplier,value,acquisition_date,last_inspection,next_inspection,notes`. The validator requires the `asset_id`, `item`, `quantity`, `location`, `status`, and `next_inspection` columns. The `next_inspection` column must exist, but its value may be blank; a blank value is skipped by date validation.
 
-```powershell
-python automation\validate_inventory.py examples\inventory-case\inventory.csv
+```text
+python automation/validate_inventory.py examples/inventory-case/inventory.csv --as-of 2026-10-26
 ```
 
-Inspection dates use `YYYY-MM-DD`. The validator reports duplicate IDs, missing required values, non-numeric or negative quantities, malformed dates, and overdue inspections. It does not infer asset availability or financial value.
+Nonblank inspection dates must use ISO `YYYY-MM-DD`. A malformed date raises a validation error and exits with status 2; a valid but past date is reported as overdue and exits with status 1. The validator also reports duplicate IDs, missing required values, non-numeric or negative quantities. It does not infer asset availability or financial value.

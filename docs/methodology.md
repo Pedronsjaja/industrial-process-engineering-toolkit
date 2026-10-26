@@ -8,7 +8,7 @@ State the problem using observable evidence, assess risk with locally agreed cri
 
 ## 5S
 
-Seiri (Sort), Seiton (Set in order), Seiso (Shine), Seiketsu (Standardize), and Shitsuke (Sustain) are organizational practices. Define observable criteria and a consistent rating scale before comparing areas or periods. A numeric score is a prompt for discussion, not proof of operational excellence.
+Seiri (Sort), Seiton (Set in order), Seiso (Shine), Seiketsu (Standardize), and Shitsuke (Sustain) are organizational practices. The current report accepts numeric scores from 0 through 5 inclusive. Define local observable criteria for each level before comparing areas or periods. The meaning is locally defined; the accepted numeric range is fixed in code. A numeric score is a prompt for discussion, not proof of operational excellence.
 
 ## PDCA and 5W2H
 
@@ -16,7 +16,7 @@ PDCA structures learning through Plan, Do, Check, and Act. 5W2H makes actions ex
 
 ## FMEA
 
-The tool calculates RPN as Severity × Occurrence × Detection for 1-10 inputs. This is a prioritization aid only. Organizations must establish definitions for each scale based on process, product, user, and regulatory context. RPN alone does not replace risk review or action on severe hazards.
+The tool accepts integer Severity, Occurrence, and Detection ratings from 1 through 10 and calculates RPN as their product. These numeric bounds are fixed in code. Organizations must establish definitions for each level based on process, product, user, and regulatory context. This is a prioritization aid only; RPN alone does not replace risk review or action on severe hazards.
 
 ## OEE
 

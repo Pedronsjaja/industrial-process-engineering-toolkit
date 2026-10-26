@@ -2,12 +2,14 @@
 
 ## Data flow
 
-The toolkit follows a simple pipeline:
+The implemented architecture is limited to:
 
-1. Users maintain CSV files or export them from spreadsheets.
-2. Small Python scripts validate input and calculate indicators.
-3. Scripts write derived CSV outputs suitable for review and dashboard refresh.
-4. Power BI or another analytics tool may consume the outputs; no dashboard product is required.
+```text
+CSV input → Python validation/calculation → CSV report/output
+                                      → optional spreadsheet or BI consumption
+```
+
+CSV is the primary data exchange format. Spreadsheet editors can prepare input and consume generated reports. BI consumption is optional and no packaged dashboard or direct BI integration is implemented.
 
 ## Design constraints
 
@@ -16,6 +18,7 @@ The toolkit follows a simple pipeline:
 - Scripts do not silently repair or overwrite source data.
 - Reports distinguish calculations from engineering judgments.
 - Examples are fictional and cannot be interpreted as site performance.
+- The scripts do not implement a separate action-management or document-governance application; those areas are represented by CSV schemas, validators, and documentation.
 
 ## Extending the toolkit
 
