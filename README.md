@@ -38,6 +38,8 @@ Os limites e próximos desenvolvimentos estão no [ROADMAP.md](ROADMAP.md).
 
 ## Aplicação em empresas e indústrias
 
+Exemplo implementável: [estoque e 5S no projeto de extensão GAIA](examples/gaia-extension-case/README.md), com roteiro de implantação, mapeamento de dados e exercício executável com dados fictícios.
+
 O material pode apoiar organização de oficinas, almoxarifados, manutenção, fabricação e controle documental. Adapte cada critério ao processo e às responsabilidades da empresa. Registre a condição inicial, execute uma melhoria e compare resultados com evidências; não atribua ganhos industriais aos exemplos fictícios.
 
 Para estudar 5S com entrevistas, use o [roteiro de diagnóstico e acompanhamento](quality/5s/roteiro-entrevista.md). Ele relaciona organização, implantação, resultados e sustentação a observações e medições. Respostas de percepção não devem ser convertidas automaticamente em notas de auditoria ou ganhos percentuais.

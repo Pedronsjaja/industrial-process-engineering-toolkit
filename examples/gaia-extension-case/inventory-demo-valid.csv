@@ -1,0 +1,3 @@
+asset_id,item,quantity,location,status,next_inspection
+DEMO-GAIA-001,Componente didático A,2,Local fictício A,available,
+DEMO-GAIA-002,Ferramenta didática B,1,Local fictício B,in repair,
